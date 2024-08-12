@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: jpa-relationship2
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jpa2
+    username: postgres
+    password: 12345
+
+  jpa:
+    show-sql:  true
+    database: postgresql
+    hibernate:
+     ddl-auto: update
+server:
+  port: 8080
